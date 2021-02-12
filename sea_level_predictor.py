@@ -44,7 +44,9 @@ def draw_plot():
     plt.plot(x_future2, y_res2, 'r', label='fitted line')
 
     # Add labels and title
-
+    plt.xlabel("Year")
+    plt.ylabel("Sea Level (inches)")
+    plt.title("Rise in Sea Level")
     
     plt.show()
     # Save plot and return data for testing (DO NOT MODIFY)
